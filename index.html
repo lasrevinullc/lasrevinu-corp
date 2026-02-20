@@ -1,0 +1,309 @@
+<!DOCTYPE html>
+<html lang="en" class="scroll-smooth">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description"
+        content="LasRevinu is a trusted, high-volume retail partner connecting quality brand-name products with universal consumer demand across leading digital marketplaces.">
+    <title>LasRevinu | Premier Marketplace Distribution Partner</title>
+
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600&family=Outfit:wght@300;400;600;700&display=swap"
+        rel="stylesheet">
+
+    <!-- Icons & Tailwind -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <script src="https://cdn.tailwindcss.com"></script>
+
+    <!-- Tailwind Configuration -->
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    colors: {
+                        brand: {
+                            gray: '#090b10',
+                            surface: '#11141d',
+                            hover: '#1a1e2b',
+                            gold: '#fbbf24',
+                            blue: '#3b82f6',
+                        }
+                    }
+                }
+            }
+        }
+    </script>
+
+    <!-- Custom Global CSS -->
+    <link rel="stylesheet" href="css/globals.css">
+</head>
+
+<body class="bg-brand-gray text-slate-200 antialiased selection:bg-brand-gold selection:text-slate-900">
+
+    <!-- Header & Navigation -->
+    <header class="fixed w-full z-50 glass">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="flex justify-between h-20 items-center">
+                <!-- Logo -->
+                <a href="index.html"
+                    class="flex items-center space-x-2 focus:outline-none focus:ring-2 focus:ring-brand-gold rounded"
+                    aria-label="LasRevinu Home">
+                    <span
+                        class="outfit text-2xl font-bold tracking-wider text-white uppercase tracking-widest flex items-center gap-2">
+                        <i class="fa-solid fa-layer-group text-brand-gold text-xl" aria-hidden="true"></i>
+                        <span>Las<span class="text-brand-gold">Revinu</span></span>
+                    </span>
+                </a>
+
+                <!-- Desktop Nav -->
+                <nav class="hidden md:flex space-x-8 items-center" aria-label="Main Navigation">
+                    <a href="index.html"
+                        class="text-brand-gold font-medium transition focus:outline-none px-2 py-1">Home</a>
+                    <a href="about.html"
+                        class="text-slate-300 hover:text-white transition focus:outline-none px-2 py-1">About Us</a>
+                    <a href="contact.html"
+                        class="bg-transparent border border-brand-gold/30 text-brand-gold px-6 py-2.5 rounded-full font-medium hover:bg-brand-gold/10 transition focus:outline-none focus:ring-2 focus:ring-brand-gold">Sell
+                        Us Your Inventory</a>
+                </nav>
+
+                <!-- Mobile Menu Button -->
+                <button id="mobile-menu-btn" class="md:hidden text-slate-300 hover:text-white focus:outline-none"
+                    aria-expanded="false" aria-label="Toggle navigation">
+                    <i class="fas fa-bars text-2xl" aria-hidden="true"></i>
+                </button>
+            </div>
+        </div>
+
+        <!-- Mobile Nav (Hidden by default) -->
+        <div id="mobile-menu" class="hidden md:hidden bg-brand-surface border-t border-white/5">
+            <div class="px-4 pt-2 pb-6 space-y-1 sm:px-3 flex flex-col items-center">
+                <a href="index.html"
+                    class="block w-full text-center px-3 py-4 text-brand-gold font-medium border-b border-white/5">Home</a>
+                <a href="about.html"
+                    class="block w-full text-center px-3 py-4 text-slate-300 hover:text-white border-b border-white/5">About
+                    Us</a>
+                <a href="contact.html"
+                    class="block w-full text-center mt-6 py-3 rounded-full border border-brand-gold text-brand-gold hover:bg-brand-gold/10">Sell
+                    Us Your Inventory</a>
+            </div>
+        </div>
+    </header>
+
+    <main>
+        <!-- Hero Section -->
+        <section class="relative min-h-screen flex items-center pt-24 pb-12 overflow-hidden bg-deep-space mesh-grid">
+            <!-- Decorative Glow Elements -->
+            <div
+                class="absolute top-1/4 left-0 w-[500px] h-[500px] bg-brand-blue/10 rounded-full blur-[120px] pointer-events-none -z-10 animate-float">
+            </div>
+            <div
+                class="absolute bottom-0 right-0 w-[600px] h-[600px] bg-brand-gold/5 rounded-full blur-[150px] pointer-events-none -z-10">
+            </div>
+
+            <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10 w-full">
+                <div class="grid lg:grid-cols-2 gap-16 items-center">
+
+                    <!-- Left Copy -->
+                    <div class="max-w-2xl reveal-up">
+                        <div
+                            class="inline-flex items-center px-3 py-1 rounded-full border border-brand-gold/30 bg-brand-gold/5 text-brand-gold text-sm font-medium mb-8">
+                            <span class="w-2 h-2 rounded-full bg-brand-gold mr-2 animate-pulse"></span>
+                            Trusted Domestic Retail Partner
+                        </div>
+                        <h1
+                            class="outfit text-5xl sm:text-6xl lg:text-7xl font-bold leading-tight mb-6 text-white uppercase">
+                            EASY SALE.<br>
+                            <span class="text-gradient">EASY SCALE.</span>
+                        </h1>
+                        <p class="text-lg sm:text-xl text-slate-400 mb-10 leading-relaxed font-light">
+                            We buy household and consumer goods from authorized distributors, and sell them
+                            directly to the end consumer across high-volume digital marketplaces.
+                        </p>
+
+                        <div class="flex flex-col sm:flex-row gap-4">
+                            <a href="contact.html"
+                                class="inline-flex justify-center items-center bg-white text-brand-gray px-8 py-4 rounded-lg font-semibold hover:bg-slate-200 transition duration-300 group">
+                                SUBMIT CATALOG
+                                <i class="fas fa-arrow-right ml-2 transform group-hover:translate-x-1 transition"
+                                    aria-hidden="true"></i>
+                            </a>
+                            <a href="about.html#procurement-process"
+                                class="inline-flex justify-center items-center bg-brand-surface border border-white/10 text-white px-8 py-4 rounded-lg font-medium hover:bg-white/5 transition duration-300">
+                                Review Purchasing Process
+                            </a>
+                        </div>
+
+                        <!-- Trust Metrics -->
+                        <div class="mt-16 grid grid-cols-3 gap-6 pt-8 border-t border-white/10">
+                            <div>
+                                <p class="text-3xl font-bold text-white outfit">Volume</p>
+                                <p class="text-xs text-slate-500 uppercase tracking-wider mt-1 font-medium">Purchase
+                                    Orders</p>
+                            </div>
+                            <div>
+                                <p class="text-3xl font-bold text-white outfit">100%</p>
+                                <p class="text-xs text-slate-500 uppercase tracking-wider mt-1 font-medium">Upfront
+                                    Funding</p>
+                            </div>
+                            <div>
+                                <p class="text-3xl font-bold text-white outfit"><i class="fas fa-check text-brand-gold"
+                                        aria-hidden="true"></i></p>
+                                <p class="text-xs text-slate-500 uppercase tracking-wider mt-1 font-medium">Reliable
+                                    Capital</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Right Graphic (Abstract Logistics Indicator) -->
+                    <div class="hidden lg:block relative reveal-up delay-200">
+                        <div class="glass-card p-1 rounded-2xl relative aspect-square w-full max-w-md ml-auto">
+                            <!-- Image overlay effect using pseudo element to make it fit dark theme -->
+                            <div class="absolute inset-0 bg-brand-blue/10 rounded-2xl mix-blend-overlay z-10"></div>
+                            <img src="https://images.unsplash.com/photo-1580674285054-bed31e145f59?q=80&w=2670&auto=format&fit=crop"
+                                alt="Modern Logistics Infrastructure representing distribution capacity"
+                                class="rounded-xl object-cover w-full h-full opacity-80 filter grayscale sepia-[.2] hue-rotate-[180deg]">
+
+                            <!-- Floating status card -->
+                            <div
+                                class="absolute -bottom-6 -left-12 glass p-5 rounded-xl flex items-center gap-4 animate-float z-20 shadow-2xl">
+                                <div
+                                    class="w-12 h-12 rounded-full bg-brand-surface flex items-center justify-center border border-white/10 text-brand-gold">
+                                    <i class="fas fa-shipping-fast text-xl" aria-hidden="true"></i>
+                                </div>
+                                <div>
+                                    <p class="text-sm font-semibold text-white">Receiving Active</p>
+                                    <p class="text-xs text-slate-400">Streamlined intake for inbound shipments.
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </section>
+
+        <!-- Our Core Commitments Section -->
+        <section class="py-24 bg-brand-surface border-y border-white/5 relative z-20">
+            <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+
+                <div class="text-center max-w-3xl mx-auto mb-20 reveal-up">
+                    <h2 class="outfit text-3xl md:text-5xl font-bold mb-6">Why Wholesalers Sell to <span
+                            class="text-gradient">LasRevinu</span></h2>
+                    <p class="text-slate-400 text-lg leading-relaxed">
+                        We don't operate like standard marketplace sellers. As a heavily capitalized retail partner, we
+                        protect your brand equity, purchase your products in bulk, and handle the selling logistics so
+                        you can focus on expanding your distribution network.
+                    </p>
+                </div>
+
+                <div class="grid md:grid-cols-3 gap-8">
+                    <!-- Commitment 1 -->
+                    <div class="glass-card p-8 rounded-2xl reveal-up delay-100 group">
+                        <div
+                            class="w-14 h-14 rounded-xl bg-white/5 border border-white/10 flex items-center justify-center mb-6 group-hover:scale-110 group-hover:bg-brand-gold/10 transition duration-300">
+                            <i class="fas fa-shield-alt text-2xl text-slate-300 group-hover:text-brand-gold transition"
+                                aria-hidden="true"></i>
+                        </div>
+                        <h3 class="outfit text-xl font-bold mb-4 text-white">Strict MAP Compliance</h3>
+                        <p class="text-slate-400 text-sm leading-relaxed">
+                            We know how important your upstream brand relationships are. We strictly adhere to Minimum
+                            Advertised Pricing (MAP) policies to ensure our downstream sales never jeopardize your
+                            standing with the manufacturers you distribute for.
+                        </p>
+                    </div>
+
+                    <!-- Commitment 2 -->
+                    <div class="glass-card p-8 rounded-2xl reveal-up delay-200 group">
+                        <div
+                            class="w-14 h-14 rounded-xl bg-white/5 border border-white/10 flex items-center justify-center mb-6 group-hover:scale-110 group-hover:bg-brand-gold/10 transition duration-300">
+                            <i class="fas fa-handshake text-2xl text-slate-300 group-hover:text-brand-gold transition"
+                                aria-hidden="true"></i>
+                        </div>
+                        <h3 class="outfit text-xl font-bold mb-4 text-white">Strategic Capital</h3>
+                        <p class="text-slate-400 text-sm leading-relaxed">
+                            No drop-shipping. No arbitrary inventory limits. We believe in building trusted, long-term
+                            wholesale relationships and scaling our purchase orders alongside your distribution
+                            capacity.
+                        </p>
+                    </div>
+
+                    <!-- Commitment 3 -->
+                    <div class="glass-card p-8 rounded-2xl reveal-up delay-300 group">
+                        <div
+                            class="w-14 h-14 rounded-xl bg-white/5 border border-white/10 flex items-center justify-center mb-6 group-hover:scale-110 group-hover:bg-brand-gold/10 transition duration-300">
+                            <i class="fas fa-shopping-cart text-2xl text-slate-300 group-hover:text-brand-gold transition"
+                                aria-hidden="true"></i>
+                        </div>
+                        <h3 class="outfit text-xl font-bold mb-4 text-white">Direct Purchasing Power</h3>
+                        <p class="text-slate-400 text-sm leading-relaxed">
+                            We don't offer 3PL services or act as an agency. We buy your products outright, take
+                            inventory risk, and handle all the logistics to sell directly to the end consumer.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- CTA Section -->
+        <section class="py-24 relative overflow-hidden">
+            <div class="absolute inset-0 bg-brand-gold/5 mesh-grid -z-10"></div>
+            <div
+                class="max-w-4xl mx-auto px-4 text-center reveal-up border border-brand-gold/20 bg-brand-surface/80 backdrop-blur-md p-12 md:p-16 rounded-3xl">
+                <h2 class="outfit text-3xl md:text-5xl font-bold mb-6 text-white">Have A Product That Aligns With What
+                    We Do?</h2>
+                <p class="text-slate-400 text-lg mb-10 max-w-2xl mx-auto">
+                    We source everyday products from Authorized Distributors to sell online. Connect with our purchasing
+                    team today to discuss consistent, recurring purchase orders.
+                </p>
+                <a href="contact.html"
+                    class="inline-flex justify-center items-center bg-brand-gold text-brand-gray px-10 py-5 rounded-full font-bold text-lg hover:bg-yellow-400 transition duration-300 shadow-[0_0_30px_rgba(251,191,36,0.2)] hover:shadow-[0_0_40px_rgba(251,191,36,0.4)] transform hover:-translate-y-1">
+                    SUBMIT CATALOG
+                </a>
+            </div>
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer class="bg-brand-gray pt-16 pb-8 border-t border-white/5">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="flex flex-col md:flex-row justify-between items-center md:items-start gap-8 mb-12">
+                <div>
+                    <span
+                        class="outfit text-2xl font-bold tracking-wider text-white uppercase tracking-widest flex items-center gap-2 mb-4 justify-center md:justify-start">
+                        <i class="fa-solid fa-layer-group text-slate-500 text-xl" aria-hidden="true"></i>
+                        <span>Las<span class="text-slate-500">Revinu</span></span>
+                    </span>
+                    <p class="text-slate-500 text-sm max-w-sm text-center md:text-left">
+                        A premier retail buyer specializing in high-volume, direct-to-consumer sales across global
+                        digital marketplaces.
+                    </p>
+                </div>
+
+                <div class="flex space-x-8 text-sm font-medium">
+                    <a href="about.html" class="text-slate-400 hover:text-white transition">About</a>
+                    <a href="contact.html" class="text-slate-400 hover:text-white transition">Contact</a>
+                    <a href="#" class="text-slate-400 hover:text-white transition cursor-not-allowed">Privacy Policy</a>
+                </div>
+            </div>
+
+            <div class="text-center pt-8 border-t border-white/5">
+                <p class="text-slate-600 text-xs uppercase tracking-widest">
+                    &copy; <span id="year"></span> LasRevinu Corporation. All Rights Reserved.
+                </p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Scripts -->
+    <script src="js/main.js"></script>
+    <script>
+        document.getElementById('year').textContent = new Date().getFullYear();
+    </script>
+</body>
+
+</html>

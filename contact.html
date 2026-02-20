@@ -1,0 +1,301 @@
+<!DOCTYPE html>
+<html lang="en" class="scroll-smooth">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description"
+        content="Contact LasRevinu to initiate a direct purchase order and join our elite vendor network.">
+    <title>Become a Partner | LasRevinu</title>
+
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600&family=Outfit:wght@300;400;600;700&display=swap"
+        rel="stylesheet">
+
+    <!-- Icons & Tailwind -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <script src="https://cdn.tailwindcss.com"></script>
+
+    <!-- Tailwind Configuration -->
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    colors: {
+                        brand: {
+                            gray: '#090b10',
+                            surface: '#11141d',
+                            hover: '#1a1e2b',
+                            gold: '#fbbf24',
+                            blue: '#3b82f6',
+                        }
+                    }
+                }
+            }
+        }
+    </script>
+
+    <!-- Custom Global CSS -->
+    <link rel="stylesheet" href="css/globals.css">
+</head>
+
+<body class="bg-brand-gray text-slate-200 antialiased selection:bg-brand-gold selection:text-slate-900">
+
+    <!-- Header & Navigation -->
+    <header class="fixed w-full z-50 glass">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="flex justify-between h-20 items-center">
+                <!-- Logo -->
+                <a href="index.html"
+                    class="flex items-center space-x-2 focus:outline-none focus:ring-2 focus:ring-brand-gold rounded"
+                    aria-label="LasRevinu Home">
+                    <span
+                        class="outfit text-2xl font-bold tracking-wider text-white uppercase tracking-widest flex items-center gap-2">
+                        <i class="fa-solid fa-layer-group text-brand-gold text-xl" aria-hidden="true"></i>
+                        <span>Las<span class="text-brand-gold">Revinu</span></span>
+                    </span>
+                </a>
+
+                <!-- Desktop Nav -->
+                <nav class="hidden md:flex space-x-8 items-center" aria-label="Main Navigation">
+                    <a href="index.html"
+                        class="text-slate-300 hover:text-white transition focus:outline-none px-2 py-1">Home</a>
+                    <a href="about.html"
+                        class="text-slate-300 hover:text-white transition focus:outline-none px-2 py-1">About Us</a>
+                    <a href="contact.html"
+                        class="bg-brand-gold text-brand-gray px-6 py-2.5 rounded-full font-bold hover:bg-yellow-400 transition focus:outline-none focus:ring-2 focus:ring-brand-gold">Sell
+                        Us Your Inventory</a>
+                </nav>
+
+                <!-- Mobile Menu Button -->
+                <button id="mobile-menu-btn" class="md:hidden text-slate-300 hover:text-white focus:outline-none"
+                    aria-expanded="false" aria-label="Toggle navigation">
+                    <i class="fas fa-bars text-2xl" aria-hidden="true"></i>
+                </button>
+            </div>
+        </div>
+
+        <!-- Mobile Nav -->
+        <div id="mobile-menu" class="hidden md:hidden bg-brand-surface border-t border-white/5">
+            <div class="px-4 pt-2 pb-6 space-y-1 sm:px-3 flex flex-col items-center">
+                <a href="index.html"
+                    class="block w-full text-center px-3 py-4 text-slate-300 hover:text-white border-b border-white/5">Home</a>
+                <a href="about.html"
+                    class="block w-full text-center px-3 py-4 text-slate-300 hover:text-white border-b border-white/5">About
+                    Us</a>
+                <a href="contact.html"
+                    class="block w-full text-center mt-6 py-3 rounded-full border border-brand-gold text-brand-gray bg-brand-gold font-bold">Sell
+                    Us Your Inventory</a>
+            </div>
+        </div>
+    </header>
+
+    <main class="min-h-screen flex flex-col justify-between pt-32 lg:pt-40">
+        <section class="flex-grow w-full max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative z-20">
+            <div class="grid lg:grid-cols-2 gap-16 pb-20">
+
+                <!-- Contact Info Side -->
+                <div class="reveal-up">
+                    <h1 class="outfit text-4xl md:text-5xl font-bold mb-6 text-white leading-tight">Partner With A
+                        Reliable Retailer</h1>
+                    <p class="text-lg text-slate-400 font-light leading-relaxed mb-10 max-w-lg">
+                        We source everyday products from Authorized Distributors to sell online. Our purchasing
+                        department is actively vetting new partners. We focus on building trusted, long-term
+                        relationships before scaling to high-volume purchase orders.
+                    </p>
+
+                    <div class="mb-12 max-w-sm">
+                        <h2 class="outfit text-2xl font-bold mb-5 text-white">Our Partnership Criteria</h2>
+                        <ul class="space-y-4">
+                            <li class="flex items-start gap-4">
+                                <i class="fas fa-certificate text-brand-gold mt-1 w-5 text-center"
+                                    aria-hidden="true"></i>
+                                <div><strong class="text-white font-medium tracking-wide">Authentic Sourcing:</strong>
+                                    <span class="text-slate-400 text-sm">Direct authorization trails only.</span>
+                                </div>
+                            </li>
+                            <li class="flex items-start gap-4">
+                                <i class="fas fa-boxes text-brand-gold mt-1 w-5 text-center" aria-hidden="true"></i>
+                                <div><strong class="text-white font-medium tracking-wide">Consistent Supply:</strong>
+                                    <span class="text-slate-400 text-sm">High-volume scalable inventory.</span>
+                                </div>
+                            </li>
+                            <li class="flex items-start gap-4">
+                                <i class="fas fa-truck-loading text-brand-gold mt-1 w-5 text-center"
+                                    aria-hidden="true"></i>
+                                <div><strong class="text-white font-medium tracking-wide">Clean Logistics:</strong>
+                                    <span class="text-slate-400 text-sm">Swift, accurate order processing.</span>
+                                </div>
+                            </li>
+                            <li class="flex items-start gap-4">
+                                <i class="fas fa-handshake text-brand-gold mt-1 w-5 text-center" aria-hidden="true"></i>
+                                <div><strong class="text-white font-medium tracking-wide">Long-Term Vision:</strong>
+                                    <span class="text-slate-400 text-sm">Ready for predictable, recurring POs.</span>
+                                </div>
+                            </li>
+                        </ul>
+                    </div>
+
+                    <div class="space-y-8 max-w-sm">
+                        <div class="flex items-start gap-4 p-5 glass rounded-xl border-l-[3px] border-l-brand-gold">
+                            <div class="bg-brand-gold/10 p-3 rounded-lg text-brand-gold mt-1">
+                                <i class="fas fa-envelope text-xl" aria-hidden="true"></i>
+                            </div>
+                            <div>
+                                <h3 class="font-bold text-white mb-1 tracking-wide">Corporate Procurement</h3>
+                                <p class="text-sm text-slate-400 leading-relaxed text-brand-gold font-medium">
+                                    purchasing@lasrevinu.com</p>
+                            </div>
+                        </div>
+
+                        <div class="flex items-start gap-4 p-5 glass rounded-xl">
+                            <div class="bg-white/5 p-3 rounded-lg text-slate-400 mt-1 border border-white/10">
+                                <i class="fas fa-money-check-alt text-xl" aria-hidden="true"></i>
+                            </div>
+                            <div>
+                                <h3 class="font-bold text-white mb-1 tracking-wide">Net Terms</h3>
+                                <p class="text-sm text-slate-400 leading-relaxed">Immediate upfront payment available
+                                    for new accounts. We also establish standard corporate Net Terms as our purchasing
+                                    volume scales with your facility.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Contact Form Side -->
+                <div class="reveal-up delay-200">
+                    <div class="glass-card p-8 md:p-10 rounded-2xl relative">
+                        <!-- Subtle Glow -->
+                        <div
+                            class="absolute -top-4 -right-4 w-32 h-32 bg-brand-gold/10 rounded-full blur-[40px] pointer-events-none z-0">
+                        </div>
+
+                        <h2 class="outfit text-2xl font-bold mb-6 text-white relative z-10">Vendor Intake Form</h2>
+
+                        <form id="vendor-form" class="space-y-5 relative z-10" novalidate
+                            onsubmit="handleFormSubmit(event)">
+                            <div class="grid grid-cols-2 gap-5">
+                                <div>
+                                    <label for="firstName"
+                                        class="block text-xs font-medium text-slate-400 mb-1 ml-1">First Name</label>
+                                    <input type="text" id="firstName" name="firstName" required
+                                        class="w-full bg-brand-gray border border-white/10 text-white px-4 py-3 rounded-lg focus:outline-none focus:border-brand-gold focus:ring-1 focus:ring-brand-gold transition placeholder-slate-600"
+                                        placeholder="John">
+                                </div>
+                                <div>
+                                    <label for="lastName"
+                                        class="block text-xs font-medium text-slate-400 mb-1 ml-1">Last Name</label>
+                                    <input type="text" id="lastName" name="lastName" required
+                                        class="w-full bg-brand-gray border border-white/10 text-white px-4 py-3 rounded-lg focus:outline-none focus:border-brand-gold focus:ring-1 focus:ring-brand-gold transition placeholder-slate-600"
+                                        placeholder="Doe">
+                                </div>
+                            </div>
+
+                            <div>
+                                <label for="companyName"
+                                    class="block text-xs font-medium text-slate-400 mb-1 ml-1">Company / Brand
+                                    Name</label>
+                                <input type="text" id="companyName" name="companyName" required
+                                    class="w-full bg-brand-gray border border-white/10 text-white px-4 py-3 rounded-lg focus:outline-none focus:border-brand-gold focus:ring-1 focus:ring-brand-gold transition placeholder-slate-600"
+                                    placeholder="Acme Logistics LLC">
+                            </div>
+
+                            <div>
+                                <label for="workEmail"
+                                    class="block text-xs font-medium text-slate-400 mb-1 ml-1">Corporate Email</label>
+                                <input type="email" id="workEmail" name="workEmail" required
+                                    class="w-full bg-brand-gray border border-white/10 text-white px-4 py-3 rounded-lg focus:outline-none focus:border-brand-gold focus:ring-1 focus:ring-brand-gold transition placeholder-slate-600"
+                                    placeholder="johndoe@acmelogistics.com">
+                            </div>
+
+                            <div>
+                                <label for="category" class="block text-xs font-medium text-slate-400 mb-1 ml-1">Product
+                                    Category</label>
+                                <select id="category" name="category" required
+                                    class="w-full bg-brand-gray border border-white/10 text-white px-4 py-3 rounded-lg focus:outline-none focus:border-brand-gold focus:ring-1 focus:ring-brand-gold transition appearance-none">
+                                    <option value="" disabled selected class="text-slate-500">Select a primary
+                                        category...</option>
+                                    <option value="household">Household Goods</option>
+                                    <option value="personal_care">Personal Care & Beauty</option>
+                                    <option value="essential_liquids">Essential Liquids & Grocery</option>
+                                    <option value="supplements">Supplements & Nutrition</option>
+                                    <option value="other">Other</option>
+                                </select>
+                            </div>
+
+                            <button type="submit"
+                                class="w-full bg-brand-gold text-brand-gray font-bold py-4 rounded-lg mt-4 hover:bg-yellow-400 transition transform hover:-translate-y-0.5 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-offset-brand-surface focus:ring-brand-gold shadow-lg shadow-brand-gold/20 tracking-wide">
+                                Submit For Review
+                            </button>
+                        </form>
+
+                        <!-- Success Message -->
+                        <div id="form-success"
+                            class="hidden absolute inset-0 glass-card bg-brand-surface z-20 rounded-2xl flex flex-col items-center justify-center p-8 text-center border-green-500/30">
+                            <div
+                                class="w-16 h-16 rounded-full bg-green-500/10 text-green-500 flex items-center justify-center text-3xl mb-4 border border-green-500/20">
+                                <i class="fas fa-check" aria-hidden="true"></i>
+                            </div>
+                            <h3 class="text-xl font-bold text-white mb-2 outfit">Inquiry Received</h3>
+                            <p class="text-slate-400 text-sm">
+                                Your vendor application has been securely submitted. A procurement manager will contact
+                                you at your corporate email address within 1-2 business days.
+                            </p>
+                            <button onclick="resetForm()"
+                                class="mt-6 text-brand-gold text-sm hover:underline focus:outline-none">Submit another
+                                inquiry</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Footer -->
+        <footer class="bg-brand-gray pt-12 pb-8 border-t border-white/5 relative z-20 w-full mt-auto">
+            <div
+                class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 flex flex-col md:flex-row justify-between items-center gap-4">
+                <span
+                    class="outfit text-xl font-bold tracking-wider text-white uppercase tracking-widest flex items-center gap-2">
+                    <span>Las<span class="text-slate-500">Revinu</span></span>
+                </span>
+                <p class="text-slate-600 text-xs uppercase tracking-widest">
+                    &copy; <span id="year"></span> LasRevinu Corporation.
+                </p>
+            </div>
+        </footer>
+    </main>
+
+    <!-- Scripts -->
+    <script src="js/main.js"></script>
+    <script>
+        document.getElementById('year').textContent = new Date().getFullYear();
+
+        function handleFormSubmit(e) {
+            e.preventDefault();
+            const form = e.target;
+
+            // Basic HTML5 validation trigger
+            if (form.checkValidity()) {
+                document.getElementById('vendor-form').classList.add('opacity-0', 'pointer-events-none');
+                setTimeout(() => {
+                    document.getElementById('form-success').classList.remove('hidden');
+                    document.getElementById('form-success').classList.add('flex');
+                }, 300);
+            } else {
+                form.reportValidity();
+            }
+        }
+
+        function resetForm() {
+            document.getElementById('vendor-form').reset();
+            document.getElementById('form-success').classList.add('hidden');
+            document.getElementById('form-success').classList.remove('flex');
+            document.getElementById('vendor-form').classList.remove('opacity-0', 'pointer-events-none');
+        }
+    </script>
+</body>
+
+</html>
