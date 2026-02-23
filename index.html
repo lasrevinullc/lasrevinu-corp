@@ -68,6 +68,15 @@
                     <a href="contact.html"
                         class="bg-transparent border border-brand-gold/30 text-brand-gold px-6 py-2.5 rounded-full font-medium hover:bg-brand-gold/10 transition focus:outline-none focus:ring-2 focus:ring-brand-gold">Sell
                         Us Your Inventory</a>
+
+                    <!-- Language Toggle -->
+                    <div class="flex items-center space-x-2 text-sm ml-4 border-l border-white/10 pl-6">
+                        <button onclick="window.setLanguage('en')"
+                            class="lang-btn-en text-white font-bold transition hover:text-white focus:outline-none uppercase">EN</button>
+                        <span class="text-white/20">|</span>
+                        <button onclick="window.setLanguage('es')"
+                            class="lang-btn-es text-slate-500 font-bold transition hover:text-white focus:outline-none uppercase">ES</button>
+                    </div>
                 </nav>
 
                 <!-- Mobile Menu Button -->
@@ -89,6 +98,15 @@
                 <a href="contact.html"
                     class="block w-full text-center mt-6 py-3 rounded-full border border-brand-gold text-brand-gold hover:bg-brand-gold/10">Sell
                     Us Your Inventory</a>
+
+                <!-- Mobile Language Toggle -->
+                <div class="flex items-center space-x-4 mt-8 pt-6 border-t border-white/5 w-full justify-center">
+                    <button onclick="window.setLanguage('en')"
+                        class="lang-btn-en text-white font-bold transition uppercase">EN</button>
+                    <span class="text-white/20">|</span>
+                    <button onclick="window.setLanguage('es')"
+                        class="lang-btn-es text-slate-500 font-bold transition uppercase">ES</button>
+                </div>
             </div>
         </div>
     </header>
@@ -109,10 +127,19 @@
 
                     <!-- Left Copy -->
                     <div class="max-w-2xl reveal-up">
-                        <div
-                            class="inline-flex items-center px-3 py-1 rounded-full border border-brand-gold/30 bg-brand-gold/5 text-brand-gold text-sm font-medium mb-8">
-                            <span class="w-2 h-2 rounded-full bg-brand-gold mr-2 animate-pulse"></span>
-                            Trusted Domestic Retail Partner
+                        <div class="flex flex-wrap items-center gap-3 mb-8">
+                            <div
+                                class="inline-flex items-center px-3 py-1 rounded-full border border-brand-gold/30 bg-brand-gold/5 text-brand-gold text-sm font-medium">
+                                <span class="w-2 h-2 rounded-full bg-brand-gold mr-2 animate-pulse"></span>
+                                <span class="translation-wrapper">Trusted Domestic Retail Partner</span>
+                            </div>
+
+                            <!-- Bilingual Badge -->
+                            <div id="espanol-badge"
+                                class="inline-flex items-center px-3 py-1 rounded-full border border-white/10 bg-white/5 text-slate-300 text-sm font-medium">
+                                <i class="fas fa-comments text-brand-blue mr-2" aria-hidden="true"></i>
+                                Hablamos Español
+                            </div>
                         </div>
                         <h1
                             class="outfit text-5xl sm:text-6xl lg:text-7xl font-bold leading-tight mb-6 text-white uppercase">
@@ -133,7 +160,7 @@
                             </a>
                             <a href="about.html#procurement-process"
                                 class="inline-flex justify-center items-center bg-brand-surface border border-white/10 text-white px-8 py-4 rounded-lg font-medium hover:bg-white/5 transition duration-300">
-                                Review Purchasing Process
+                                Review Our Purchasing Process
                             </a>
                         </div>
 
@@ -209,11 +236,11 @@
                             <i class="fas fa-shield-alt text-2xl text-slate-300 group-hover:text-brand-gold transition"
                                 aria-hidden="true"></i>
                         </div>
-                        <h3 class="outfit text-xl font-bold mb-4 text-white">Strict MAP Compliance</h3>
+                        <h3 class="outfit text-xl font-bold mb-4 text-white">Predictable Liquidity</h3>
                         <p class="text-slate-400 text-sm leading-relaxed">
-                            We know how important your upstream brand relationships are. We strictly adhere to Minimum
-                            Advertised Pricing (MAP) policies to ensure our downstream sales never jeopardize your
-                            standing with the manufacturers you distribute for.
+                            We don't just buy once. We act as a consistent, high-volume endpoint for your inventory. Our
+                            goal is to provide reliable cash flow so you can continue acquiring premium brand catalogs
+                            without capital bottlenecks.
                         </p>
                     </div>
 
