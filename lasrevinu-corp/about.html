@@ -1,0 +1,387 @@
+<!DOCTYPE html>
+<html lang="en" class="scroll-smooth">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description"
+        content="Learn about LasRevinu, the premier marketplace distribution partner specializing in high-volume holding and logistical scaling.">
+    <title>About Us | LasRevinu</title>
+
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600&family=Outfit:wght@300;400;600;700&display=swap"
+        rel="stylesheet">
+
+    <!-- Icons & Tailwind -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <script src="https://cdn.tailwindcss.com"></script>
+
+    <!-- Tailwind Configuration -->
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    colors: {
+                        brand: {
+                            gray: '#090b10',
+                            surface: '#11141d',
+                            hover: '#1a1e2b',
+                            gold: '#fbbf24',
+                            blue: '#3b82f6',
+                        }
+                    }
+                }
+            }
+        }
+    </script>
+
+    <!-- Custom Global CSS -->
+    <link rel="stylesheet" href="css/globals.css">
+</head>
+
+<body class="bg-brand-gray text-slate-200 antialiased selection:bg-brand-gold selection:text-slate-900">
+
+    <!-- Header & Navigation -->
+    <header class="fixed w-full z-50 glass">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="flex justify-between h-20 items-center">
+                <!-- Logo -->
+                <a href="index.html"
+                    class="flex items-center space-x-2 focus:outline-none focus:ring-2 focus:ring-brand-gold rounded"
+                    aria-label="LasRevinu Home">
+                    <span
+                        class="outfit text-2xl font-bold tracking-wider text-white uppercase tracking-widest flex items-center gap-2">
+                        <i class="fa-solid fa-layer-group text-brand-gold text-xl" aria-hidden="true"></i>
+                        <span>Las<span class="text-brand-gold">Revinu</span></span>
+                    </span>
+                </a>
+
+                <!-- Desktop Nav -->
+                <nav class="hidden md:flex space-x-8 items-center" aria-label="Main Navigation">
+                    <a href="index.html"
+                        class="text-slate-300 hover:text-white transition focus:outline-none px-2 py-1">Home</a>
+                    <a href="about.html"
+                        class="text-brand-gold font-medium transition focus:outline-none px-2 py-1">About Us</a>
+                    <a href="contact.html"
+                        class="bg-transparent border border-brand-gold/30 text-brand-gold px-6 py-2.5 rounded-full font-medium hover:bg-brand-gold/10 transition focus:outline-none focus:ring-2 focus:ring-brand-gold">Sell
+                        Us Your Inventory</a>
+
+                    <!-- Language Toggle -->
+                    <div class="flex items-center space-x-2 text-sm ml-4 border-l border-white/10 pl-6">
+                        <button onclick="window.setLanguage('en')"
+                            class="lang-btn-en text-white font-bold transition hover:text-white focus:outline-none uppercase">EN</button>
+                        <span class="text-white/20">|</span>
+                        <button onclick="window.setLanguage('es')"
+                            class="lang-btn-es text-slate-500 font-bold transition hover:text-white focus:outline-none uppercase">ES</button>
+                    </div>
+                </nav>
+
+                <!-- Mobile Menu Button -->
+                <button id="mobile-menu-btn" class="md:hidden text-slate-300 hover:text-white focus:outline-none"
+                    aria-expanded="false" aria-label="Toggle navigation">
+                    <i class="fas fa-bars text-2xl" aria-hidden="true"></i>
+                </button>
+            </div>
+        </div>
+
+        <!-- Mobile Nav -->
+        <div id="mobile-menu" class="hidden md:hidden bg-brand-surface border-t border-white/5">
+            <div class="px-4 pt-2 pb-6 space-y-1 sm:px-3 flex flex-col items-center">
+                <a href="index.html"
+                    class="block w-full text-center px-3 py-4 text-slate-300 hover:text-white border-b border-white/5">Home</a>
+                <a href="about.html"
+                    class="block w-full text-center px-3 py-4 text-brand-gold font-medium border-b border-white/5">About
+                    Us</a>
+                <a href="contact.html"
+                    class="block w-full text-center mt-6 py-3 rounded-full border border-brand-gold text-brand-gold hover:bg-brand-gold/10">Sell
+                    Us Your Inventory</a>
+
+                <!-- Mobile Language Toggle -->
+                <div class="flex items-center space-x-4 mt-8 pt-6 border-t border-white/5 w-full justify-center">
+                    <button onclick="window.setLanguage('en')"
+                        class="lang-btn-en text-white font-bold transition uppercase">EN</button>
+                    <span class="text-white/20">|</span>
+                    <button onclick="window.setLanguage('es')"
+                        class="lang-btn-es text-slate-500 font-bold transition uppercase">ES</button>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <main>
+        <!-- About Hero Section -->
+        <section class="relative pt-40 pb-20 overflow-hidden bg-brand-gray mesh-grid">
+            <div
+                class="absolute top-0 right-1/4 w-[400px] h-[400px] bg-brand-blue/5 rounded-full blur-[100px] pointer-events-none -z-10 animate-float">
+            </div>
+
+            <div class="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 text-center reveal-up">
+                <div
+                    class="inline-flex justify-center items-center w-16 h-16 rounded-2xl bg-brand-surface border border-white/10 text-brand-gold mb-8 shadow-2xl">
+                    <i class="fas fa-globe text-2xl animate-spin-slow" aria-hidden="true"></i>
+                </div>
+                <h1 class="outfit text-4xl md:text-6xl font-bold leading-tight mb-8 text-white">
+                    <span>The Origin of</span> <span class="text-gradient-gold">LasRevinu</span>
+                </h1>
+                <p class="text-xl text-slate-400 leading-relaxed font-light mx-auto max-w-2xl">
+                    Established in 2023, we are a premier retail partner dedicated to streamlining the supply chain and
+                    reaching the end consumer through online markets.
+                </p>
+            </div>
+        </section>
+
+        <!-- The Universal Mission -->
+        <section class="py-20 relative bg-brand-surface border-y border-white/5 z-20">
+            <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+                <div class="grid lg:grid-cols-2 gap-16 items-center">
+
+                    <!-- Interactive Diagram Replacement -->
+                    <div class="reveal-up delay-100 h-full flex items-center justify-center">
+                        <div
+                            class="glass-card p-10 rounded-2xl relative w-full max-w-md mx-auto flex flex-col justify-center border border-brand-gold/20 bg-gradient-to-br from-brand-gold/5 to-transparent shadow-[0_0_40px_rgba(251,191,36,0.05)]">
+
+                            <!-- Diagram Title -->
+                            <h3
+                                class="outfit text-sm tracking-[0.2em] uppercase text-brand-gold font-bold mb-10 text-center text-gradient-gold">
+                                The Frictionless Model</h3>
+
+                            <div class="relative w-full px-4">
+                                <!-- Background dashed track for the loop -->
+                                <div
+                                    class="absolute inset-y-6 left-10 border-l-2 border-dashed border-white/20 -ml-[1px] rounded-l-[40px] w-12 z-0 opacity-50">
+                                </div>
+
+                                <!-- Steps Container -->
+                                <div class="flex flex-col gap-10 relative z-10 pl-16">
+
+                                    <!-- Step 1: Buy -->
+                                    <div class="relative group cursor-default">
+                                        <!-- connecting dot to track -->
+                                        <div
+                                            class="absolute top-1/2 -left-16 w-8 h-px bg-white/20 group-hover:bg-brand-gold transition duration-300">
+                                        </div>
+                                        <div
+                                            class="absolute top-1/2 -left-8 w-3 h-3 rounded-full bg-slate-700 border border-white/20 group-hover:border-transparent group-hover:bg-brand-gold -mt-1.5 -ml-1.5 shadow-none group-hover:shadow-[0_0_15px_rgba(251,191,36,0.8)] transition duration-300">
+                                        </div>
+
+                                        <div class="flex items-center gap-5">
+                                            <div
+                                                class="w-14 h-14 rounded-xl bg-gradient-to-br from-white/5 to-white/0 border border-white/10 group-hover:border-brand-gold/50 group-hover:bg-brand-gold/10 flex items-center justify-center shrink-0 group-hover:scale-110 transition duration-300">
+                                                <i
+                                                    class="fas fa-boxes text-xl text-slate-400 group-hover:text-brand-gold transition duration-300"></i>
+                                            </div>
+                                            <div>
+                                                <h4
+                                                    class="outfit text-xl font-bold text-white mb-1 group-hover:text-brand-gold transition duration-300">
+                                                    1. Buy</h4>
+                                                <p class="text-sm text-slate-400 transition duration-300">High-volume
+                                                    wholesale POs</p>
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                    <!-- Step 2: Sell -->
+                                    <div class="relative group cursor-default">
+                                        <div
+                                            class="absolute top-1/2 -left-16 w-8 h-px bg-white/20 group-hover:bg-brand-blue transition duration-300">
+                                        </div>
+                                        <div
+                                            class="absolute top-1/2 -left-8 w-3 h-3 rounded-full bg-slate-700 border border-white/20 group-hover:border-transparent group-hover:bg-brand-blue -mt-1.5 -ml-1.5 transition duration-300 group-hover:shadow-[0_0_15px_rgba(59,130,246,0.8)]">
+                                        </div>
+
+                                        <div class="flex items-center gap-5">
+                                            <div
+                                                class="w-14 h-14 rounded-xl bg-gradient-to-br from-white/5 to-white/0 border border-white/10 group-hover:border-brand-blue/50 group-hover:bg-brand-blue/10 flex items-center justify-center shrink-0 group-hover:scale-110 transition duration-300">
+                                                <i
+                                                    class="fas fa-shopping-cart text-xl text-slate-400 group-hover:text-brand-blue transition duration-300"></i>
+                                            </div>
+                                            <div>
+                                                <h4
+                                                    class="outfit text-xl font-bold text-white mb-1 group-hover:text-brand-blue transition duration-300">
+                                                    2. Sell</h4>
+                                                <p class="text-sm text-slate-400 transition duration-300">Direct scale
+                                                    to consumers</p>
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                    <!-- Step 3: Repeat -->
+                                    <div class="relative group cursor-default">
+                                        <div
+                                            class="absolute top-1/2 -left-16 w-8 h-px bg-white/20 group-hover:bg-white transition duration-300">
+                                        </div>
+                                        <div
+                                            class="absolute top-1/2 -left-8 w-3 h-3 rounded-full bg-slate-700 border border-white/20 group-hover:border-transparent group-hover:bg-white -mt-1.5 -ml-1.5 transition duration-300 group-hover:shadow-[0_0_15px_rgba(255,255,255,0.8)]">
+                                        </div>
+
+                                        <div class="flex items-center gap-5">
+                                            <div
+                                                class="w-14 h-14 rounded-xl bg-gradient-to-br from-white/5 to-white/0 border border-white/10 group-hover:border-white/50 group-hover:bg-white/10 flex items-center justify-center shrink-0 group-hover:scale-110 transition duration-300">
+                                                <i
+                                                    class="fas fa-sync-alt text-xl text-slate-400 group-hover:text-white transition duration-300 tracking-wider"></i>
+                                            </div>
+                                            <div>
+                                                <h4
+                                                    class="outfit text-xl font-bold text-white mb-1 group-hover:text-white transition duration-300">
+                                                    3. Repeat</h4>
+                                                <p class="text-sm text-slate-400 transition duration-300">Predictable
+                                                    monthly revenue</p>
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="reveal-up delay-200">
+                        <h2 class="outfit text-3xl font-bold mb-6 text-white tracking-wide">Our Operational Focus</h2>
+                        <p class="text-slate-400 text-lg leading-relaxed mb-6">
+                            We strive to build
+                            relationships with authorized distributors purchasing products consumed by the everyday
+                            American.
+                        </p>
+                        <p class="text-slate-400 text-lg leading-relaxed mb-6">
+                            From cleaning and hygienic products, to office and restaurant supplies, even home
+                            decor and niche products, we sell it all.
+                        </p>
+                        <div class="pl-6 border-l-2 border-brand-gold mt-8">
+                            <p class="text-white text-xl font-light italic">
+                                "Buy. Sell. Repeat. We are the reliable, frictionless volume purchaser you can count on
+                                month after month."
+                            </p>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </section>
+
+        <!-- Our Scale Data Points -->
+        <section id="procurement-process" class="py-24 bg-brand-gray relative overflow-hidden">
+            <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+
+                <div class="text-center max-w-2xl mx-auto mb-16 reveal-up">
+                    <h2 class="outfit text-3xl md:text-5xl font-bold mb-4">The Procurement Process</h2>
+                    <p class="text-slate-400">Our streamlined approach to deploying capital and managing high-volume
+                        product flow.</p>
+                </div>
+
+                <div class="grid md:grid-cols-2 lg:grid-cols-4 gap-6">
+                    <!-- Step 1 -->
+                    <div class="glass-card p-8 rounded-xl reveal-up delay-100 relative overflow-hidden group">
+                        <div
+                            class="absolute top-0 right-0 p-4 opacity-10 text-6xl font-black outfit text-white group-hover:text-brand-gold transition duration-300">
+                            1</div>
+                        <div
+                            class="w-12 h-12 rounded-lg bg-white/5 flex items-center justify-center mb-6 group-hover:bg-brand-gold/20 transition duration-300">
+                            <i class="fas fa-check-circle text-brand-gold text-xl" aria-hidden="true"></i>
+                        </div>
+                        <h3 class="text-xl font-bold text-white outfit mb-3">Account Approval</h3>
+                        <p class="text-sm text-slate-400">Rapid vetting of your catalog and brand authorizations.</p>
+                    </div>
+
+                    <!-- Step 2 -->
+                    <div class="glass-card p-8 rounded-xl reveal-up delay-200 relative overflow-hidden group">
+                        <div
+                            class="absolute top-0 right-0 p-4 opacity-10 text-6xl font-black outfit text-white group-hover:text-emerald-400 transition duration-300">
+                            2</div>
+                        <div
+                            class="w-12 h-12 rounded-lg bg-white/5 flex items-center justify-center mb-6 group-hover:bg-emerald-400/20 transition duration-300">
+                            <i class="fas fa-file-invoice-dollar text-emerald-400 text-xl" aria-hidden="true"></i>
+                        </div>
+                        <h3 class="text-xl font-bold text-white outfit mb-3">PO Issuance</h3>
+                        <p class="text-sm text-slate-400">Immediate capital deployment meeting and exceeding your
+                            Minimum Order Quantity (MOQ).</p>
+                    </div>
+
+                    <!-- Step 3 -->
+                    <div class="glass-card p-8 rounded-xl reveal-up delay-300 relative overflow-hidden group">
+                        <div
+                            class="absolute top-0 right-0 p-4 opacity-10 text-6xl font-black outfit text-white group-hover:text-brand-gold transition duration-300">
+                            3</div>
+                        <div
+                            class="w-12 h-12 rounded-lg bg-white/5 flex items-center justify-center mb-6 group-hover:bg-brand-gold/20 transition duration-300">
+                            <i class="fas fa-truck text-brand-gold text-xl" aria-hidden="true"></i>
+                        </div>
+                        <h3 class="text-xl font-bold text-white outfit mb-3">Freight &amp; Receiving</h3>
+                        <p class="text-sm text-slate-400">We handle the direct routing to our prep facilities.</p>
+                    </div>
+
+                    <!-- Step 4 -->
+                    <div class="glass-card p-8 rounded-xl reveal-up delay-400 relative overflow-hidden group">
+                        <div
+                            class="absolute top-0 right-0 p-4 opacity-10 text-6xl font-black outfit text-white group-hover:text-white transition duration-300">
+                            4</div>
+                        <div
+                            class="w-12 h-12 rounded-lg bg-white/5 flex items-center justify-center mb-6 group-hover:bg-white/20 transition duration-300">
+                            <i class="fas fa-sync text-white text-xl" aria-hidden="true"></i>
+                        </div>
+                        <h3 class="text-xl font-bold text-white outfit mb-3">Recurring Restocks</h3>
+                        <p class="text-sm text-slate-400">Predictable re-orders based on consistent sell-through data.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- CTA Section -->
+        <section class="py-20 relative bg-brand-surface border-t border-white/5">
+            <div class="max-w-4xl mx-auto px-4 text-center reveal-up">
+                <h2 class="outfit text-3xl font-bold mb-6 text-white">Have A Product That Aligns With What We Do?</h2>
+                <p class="text-slate-400 mb-8 max-w-2xl mx-auto">
+                    We source everyday products from Authorized Distributors to sell online. If you are an authorized
+                    distributor in the Household, Personal Care, and Essential categories, we want to hear from you.
+                </p>
+                <a href="contact.html"
+                    class="inline-flex justify-center items-center bg-white text-brand-gray px-8 py-4 rounded-lg font-bold hover:bg-slate-200 transition duration-300">
+                    SUBMIT CATALOG
+                </a>
+            </div>
+        </section>
+
+    </main>
+
+    <!-- Footer -->
+    <footer class="bg-brand-gray pt-16 pb-8 border-t border-white/5">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="flex flex-col md:flex-row justify-between items-center md:items-start gap-8 mb-12">
+                <div>
+                    <span
+                        class="outfit text-2xl font-bold tracking-wider text-white uppercase tracking-widest flex items-center gap-2 mb-4 justify-center md:justify-start">
+                        <i class="fa-solid fa-layer-group text-slate-500 text-xl" aria-hidden="true"></i>
+                        <span>Las<span class="text-slate-500">Revinu</span></span>
+                    </span>
+                    <p class="text-slate-500 text-sm max-w-sm text-center md:text-left">
+                        A premier retail buyer specializing in high-volume, direct-to-consumer sales across global
+                        digital marketplaces.
+                    </p>
+                </div>
+
+                <div class="flex space-x-8 text-sm font-medium">
+                    <a href="about.html" class="text-white transition">About</a>
+                    <a href="contact.html" class="text-slate-400 hover:text-white transition">Contact</a>
+                    <a href="#" class="text-slate-400 hover:text-white transition cursor-not-allowed">Privacy Policy</a>
+                </div>
+            </div>
+
+            <div class="text-center pt-8 border-t border-white/5">
+                <p class="text-slate-600 text-xs uppercase tracking-widest">
+                    &copy; <span id="year"></span> LasRevinu Corporation. All Rights Reserved.
+                </p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Scripts -->
+    <script src="js/main.js"></script>
+    <script>
+        document.getElementById('year').textContent = new Date().getFullYear();
+    </script>
+</body>
+
+</html>
