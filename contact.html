@@ -297,11 +297,39 @@
 
             // Basic HTML5 validation trigger
             if (form.checkValidity()) {
-                document.getElementById('vendor-form').classList.add('opacity-0', 'pointer-events-none');
-                setTimeout(() => {
-                    document.getElementById('form-success').classList.remove('hidden');
-                    document.getElementById('form-success').classList.add('flex');
-                }, 300);
+                const submitBtn = form.querySelector('button[type="submit"]');
+                const originalText = submitBtn.textContent;
+                submitBtn.textContent = "Sending...";
+                submitBtn.disabled = true;
+
+                fetch("https://formsubmit.co/ajax/purchasing@lasrevinu.net", {
+                    method: "POST",
+                    headers: {
+                        'Content-Type': 'application/json',
+                        'Accept': 'application/json'
+                    },
+                    body: JSON.stringify({
+                        FirstName: form.firstName.value,
+                        LastName: form.lastName.value,
+                        CompanyName: form.companyName.value,
+                        Email: form.workEmail.value,
+                        Category: form.category.value,
+                        _subject: "New Vendor Application: " + form.companyName.value
+                    })
+                })
+                    .then(response => response.json())
+                    .then(data => {
+                        document.getElementById('vendor-form').classList.add('opacity-0', 'pointer-events-none');
+                        setTimeout(() => {
+                            document.getElementById('form-success').classList.remove('hidden');
+                            document.getElementById('form-success').classList.add('flex');
+                        }, 300);
+                    })
+                    .catch(error => {
+                        submitBtn.textContent = originalText;
+                        submitBtn.disabled = false;
+                        alert("There was an error sending your message. Please try again.");
+                    });
             } else {
                 form.reportValidity();
             }
@@ -309,6 +337,9 @@
 
         function resetForm() {
             document.getElementById('vendor-form').reset();
+            const submitBtn = document.querySelector('#vendor-form button[type="submit"]');
+            submitBtn.textContent = "Submit For Review";
+            submitBtn.disabled = false;
             document.getElementById('form-success').classList.add('hidden');
             document.getElementById('form-success').classList.remove('flex');
             document.getElementById('vendor-form').classList.remove('opacity-0', 'pointer-events-none');
