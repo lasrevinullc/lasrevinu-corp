@@ -159,24 +159,24 @@ const esDict = {
   "Vendor Onboarding": "Inscripción Comercial",
   "Open A ": "Abrir ",
   "Wholesale Account": "Cuenta Mayorista",
-  "We are actively reviewing new vendor catalogs. If your distribution facility meets our purchasing capacity requirements, our procurement team will reach out within 24 hours.": "Revisamos sin pausa catálogos de proveedores nuevos. Si su planta cumple los requisitos de nuestra envergadura de compra, nos contactaremos con usted antes de pasadas las 24 horas.",
-  "We source everyday products from Authorized Distributors to sell online. If you are an authorized distributor in the Household, Personal Care, and Essential categories, we want to hear from you.": "Compramos productos de uso diario de Distribuidores Autorizados para vender en línea. Si es un distribuidor autorizado en las categorías Cuidado Personal, Hogar y Esenciales, queremos saber de usted.",
+  "Partner With A Reliable Retailer": "Asóciese con un Minorista Confiable",
+  "We source everyday products from Authorized Distributors to sell online. Our purchasing department is actively vetting new partners. We focus on building trusted, long-term relationships before scaling to high-volume purchase orders.": "Adquirimos productos cotidianos de Distribuidores Autorizados para vender en línea. Nuestro departamento de compras evalúa activamente nuevos socios. Nos enfocamos en construir relaciones sólidas y a largo plazo antes de escalar a órdenes de compra de gran volumen.",
 
   // Criteria
-  "Our Partnership Criteria": "Nuestro Criterio de Selección",
-  "Authentic Sourcing:": "Línea Auténtica:",
-  "Direct pipeline to brand manufacturers.": "Surtido validado por la marca fabricante oficial.",
-  "Consistent Supply:": "Despliegue Sólido:",
-  "High-volume scalable inventory.": "Posibilidad de sostener órdenes masivas.",
-  "Clean Logistics:": "Operativa Limpia:",
-  "Swift, accurate order processing.": "Preparación infalible y gestión ultraveloz.",
-  "Long-Term Vision:": "Perspectiva Futura:",
-  "Ready for predictable, recurring POs.": "Capacidad frente a las órdenes semanales.",
+  "Our Partnership Criteria": "Nuestros Criterios de Sociedad",
+  "Authentic Sourcing:": "Abastecimiento Auténtico:",
+  "Direct authorization trails only.": "Solo con rastro de autorización directa de la marca.",
+  "Consistent Supply:": "Suministro Consistente:",
+  "High-volume scalable inventory.": "Inventario escalable de alto volumen.",
+  "Clean Logistics:": "Logística Limpia:",
+  "Swift, accurate order processing.": "Procesamiento de pedidos rápido y preciso.",
+  "Long-Term Vision:": "Visión a Largo Plazo:",
+  "Ready for predictable, recurring POs.": "Listo para órdenes predecibles y recurrentes.",
 
   // Contact Info
-  "Corporate Procurement": "Área de Compras",
-  "Net Terms": "Plazo de Cobro Neto",
-  "Immediate upfront payment available for new accounts. We also establish standard corporate Net Terms as our purchasing volume scales with your facility.": "Liquidamos su primera orden con pago previo mientras la confianza se construye. Avanzada la rotación escalamos a los acuerdos de Cobro Neto corporativo (Net 30/60).",
+  "Corporate Procurement": "Adquisiciones Corporativas",
+  "Net Terms": "Términos Netos",
+  "Immediate upfront payment available for new accounts. We also establish standard corporate Net Terms as our purchasing volume scales with your facility.": "Pago inicial inmediato disponible para cuentas nuevas. También establecemos Términos Netos corporativos estándar a medida que nuestro volumen de compra escala con su instalación.",
 
   // Form
   "Submit Your Distribution Catalog": "Proporcione su Oferta B2B",
@@ -186,7 +186,56 @@ const esDict = {
   "Company Website or LinkedIn": "Dirección Web o LinkedIn Empresarial",
   "Primary Product Categories": "Segmento Comercial (Hogar, etc)",
   "Submit Inquiry": "Hacer Envío",
-  "Your information is secure and will only be reviewed by our internal procurement team.": "La información es evaluada discretamente por nuestro plantel de control directo."
+  "Your information is secure and will only be reviewed by our internal procurement team.": "La información es evaluada discretamente por nuestro plantel de control directo.",
+
+  // New Form Fields
+  "Vendor Intake Form": "Formulario de Ingreso de Proveedores",
+  "First Name": "Nombre",
+  "Last Name": "Apellido",
+  "Company / Brand Name": "Nombre de Empresa / Marca",
+  "Corporate Email": "Correo Corporativo",
+  "Product Category": "Categoría de Producto",
+  "Submit For Review": "Enviar Para Revisión",
+  "Sending...": "Enviando...",
+  "Inquiry Received": "Consulta Recibida",
+  "Your vendor application has been securely submitted. A procurement manager will contact you at your corporate email address within 1-2 business days.": "Su solicitud de proveedor ha sido enviada de forma segura. Un gerente de compras se comunicará con usted en su correo electrónico corporativo dentro de 1-2 días hábiles.",
+  "Submit another inquiry": "Enviar otra consulta",
+
+  // Category Dropdown
+  "Select a primary category...": "Seleccione una categoría principal...",
+  "Beauty & Personal Care": "Belleza y Cuidado Personal",
+  "Health & Household": "Salud y Hogar",
+  "Grocery & Gourmet Food": "Alimentos y Bebidas",
+  "Pet Supplies": "Artículos para Mascotas",
+  "Baby Products": "Productos para Bebés",
+  "Office Products": "Productos de Oficina",
+  "Tools & Home Improvement": "Herramientas y Mejoras del Hogar",
+  "Industrial & Scientific": "Industrial y Científico",
+  "Toys & Games": "Juguetes y Juegos",
+  "Other": "Otro",
+
+  // Privacy Policy
+  "Privacy Policy and Data Handling procedures for LasRevinu Corporation. We value and protect the confidentiality of our B2B wholesale partners.": "Política de Privacidad y procedimientos de Manejo de Datos para LasRevinu Corporation. Valoramos y protegemos la confidencialidad de nuestros socios mayoristas B2B.",
+  "Privacy Policy": "Política de Privacidad",
+  "Last Updated: February 2026": "Última actualización: Febrero 2026",
+  "1. Information We Collect": "1. Información que Recopilamos",
+  "LasRevinu Corporation (\"LasRevinu\", \"we\", \"our\", or \"us\") operates as a specialized wholesale buyer. To facilitate B2B transactions, we may collect business contact information when you interact with us, including:": "LasRevinu Corporation (\"LasRevinu\", \"nosotros\" o \"nuestro\") opera como un comprador mayorista especializado. Para facilitar las transacciones B2B, podemos recopilar información de contacto comercial cuando interactúa con nosotros, que incluye:",
+  "Business name, address, and industry classification": "Nombre de la empresa, dirección y clasificación de la industria",
+  "Contact names, email addresses, and phone numbers": "Nombres de contacto, direcciones de correo electrónico y números de teléfono",
+  "Product catalogs, inventory lists, and distributor authorizations": "Catálogos de productos, listas de inventario y autorizaciones de distribuidores",
+  "Payment and billing information necessary to establish Net Terms or issue Purchase Orders": "Información de pago y facturación necesaria para establecer términos netos o emitir órdenes de compra",
+  "2. How We Use Your Information": "2. Cómo Usamos Su Información",
+  "The information collected is used exclusively for legitimate business purposes. We do not sell, rent, or trade your contact information to third-party marketers. We utilize your data to:": "La información recopilada se utiliza exclusivamente para fines comerciales legítimos. No vendemos, alquilamos ni intercambiamos su información de contacto a comercializadores externos. Utilizamos sus datos para:",
+  "Evaluate potential wholesale partnerships and authorize brand sourcing.": "Evaluar posibles asociaciones mayoristas y autorizar el abastecimiento de marcas.",
+  "Communicate regarding Purchase Orders (POs), Minimum Order Quantities (MOQs), and logistics routing.": "Comunicarnos sobre órdenes de compra (PO), cantidades mínimas de pedido (MOQ) y rutas logísticas.",
+  "Process payments and establish long-term financial terms.": "Procesar pagos y establecer términos financieros a largo plazo.",
+  "Respond to your inquiries via our website or direct email.": "Responder a sus consultas a través de nuestro sitio web o correo electrónico directo.",
+  "3. Data Security and Confidentiality": "3. Seguridad y Confidencialidad de los Datos",
+  "We implement strict operational security measures to protect your catalogs, pricing structures, and business data against unauthorized access. As a high-volume retail partner, we recognize that your supply chain relationships and pricing agreements are highly sensitive. Documents shared during the Account Vetting phase are kept strictly confidential.": "Implementamos estrictas medidas de seguridad operativa para proteger sus catálogos, estructuras de precios y datos comerciales contra el acceso no autorizado. Como socio minorista de alto volumen, reconocemos que sus relaciones en la cadena de suministro y acuerdos de precios son altamente confidenciales. Los documentos compartidos durante la fase de Evaluación de Cuentas se mantienen estrictamente confidenciales.",
+  "4. Cookies and Website Analytics": "4. Cookies y Análisis de Sitios Web",
+  "Our corporate landing page may use basic cookies or analytics trackers to ensure site functionality and monitor general traffic patterns. This data is aggregated and does not identify individual users. You may disable cookies in your browser settings without affecting your ability to view our site.": "Nuestra página de destino corporativa puede usar cookies básicas o rastreadores de análisis para garantizar la funcionalidad del sitio y monitorear los patrones de tráfico general. Estos datos se agregan y no identifican a usuarios individuales. Puede desactivar las cookies en la configuración de su navegador sin afectar su capacidad para ver nuestro sitio.",
+  "5. Contact Information": "5. Información de Contacto",
+  "If you have any questions or concerns regarding our privacy practices or data handling procedures, please contact our administrative team at the email or phone number provided to your designated procurement agent.": "Si tiene alguna pregunta o inquietud sobre nuestras prácticas de privacidad o procedimientos de manejo de datos, comuníquese con nuestro equipo administrativo al correo electrónico o número de teléfono proporcionado a su agente de compras designado."
 };
 
 const textNodes = [];
