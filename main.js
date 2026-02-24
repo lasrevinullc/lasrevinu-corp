@@ -187,6 +187,21 @@ const esDict = {
   "Primary Product Categories": "Segmento Comercial (Hogar, etc)",
   "Submit Inquiry": "Hacer Envío",
   "Your information is secure and will only be reviewed by our internal procurement team.": "La información es evaluada discretamente por nuestro plantel de control directo.",
+
+  // New Form Fields
+  "Vendor Intake Form": "Formulario de Ingreso de Proveedores",
+  "First Name": "Nombre",
+  "Last Name": "Apellido",
+  "Company / Brand Name": "Nombre de Empresa / Marca",
+  "Corporate Email": "Correo Corporativo",
+  "Product Category": "Categoría de Producto",
+  "Submit For Review": "Enviar Para Revisión",
+  "Sending...": "Enviando...",
+  "Inquiry Received": "Consulta Recibida",
+  "Your vendor application has been securely submitted. A procurement manager will contact you at your corporate email address within 1-2 business days.": "Su solicitud de proveedor ha sido enviada de forma segura. Un gerente de compras se comunicará con usted en su correo electrónico corporativo dentro de 1-2 días hábiles.",
+  "Submit another inquiry": "Enviar otra consulta",
+
+  // Category Dropdown
   "Select a primary category...": "Seleccione una categoría principal...",
   "Beauty & Personal Care": "Belleza y Cuidado Personal",
   "Health & Household": "Salud y Hogar",
