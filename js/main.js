@@ -67,6 +67,8 @@ const esDict = {
   "Home": "Inicio",
   "About Us": "Nosotros",
   "About": "Nosotros",
+  "Wholesaler/Distributor": "Mayorista/Distribuidor",
+  "Own a Brand": "Posee una Marca",
   "Sell Us Your Inventory": "Véndenos tu Inventario",
   "Contact": "Contacto",
   "Privacy Policy": "Política de Privacidad",
@@ -75,31 +77,46 @@ const esDict = {
   "Trusted Domestic Retail Partner": "Socio Minorista Nacional Confiable",
   "EASY SALE.": "VENTA FÁCIL.",
   "EASY SCALE.": "ESCALA FÁCIL.",
-  "We buy household and consumer goods from authorized distributors, and sell them directly to the end consumer across high-volume digital marketplaces.": "Compramos bienes de consumo de distribuidores autorizados y los vendemos directamente al consumidor final en mercados digitales de gran volumen.",
+  "We purchase inventory outright from both established distributors and premium brands, providing reliable liquidity while strictly protecting brand equity across digital marketplaces.": "Compramos inventario directamente tanto a distribuidores establecidos como a marcas premium, proporcionando liquidez confiable y protegiendo estrictamente el valor de la marca en los mercados digitales.",
   "SUBMIT CATALOG": "ENVIAR CATÁLOGO",
   "Review Our Purchasing Process": "Revise Nuestro Proceso de Compra",
 
   // Trust Metrics
   "Volume": "Alto Volumen",
   "Purchase Orders": "De Órdenes de Compra",
+  "100%": "100%",
   "Upfront Funding": "Pago por Adelantado",
   "Reliable Capital": "Capital Asegurado",
   "Receiving Active": "Recepción Activa",
   "Streamlined intake for inbound shipments.": "Ingreso optimizado para envíos entrantes.",
 
-  // Core Commitments
+  // Brands Section
+  "Why Brands Partner With ": "Por Qué las Marcas se Asocian con ",
+  "Why Brands Partner With": "Por Qué las Marcas se Asocian con",
+  "We don't operate like standard marketplace sellers. We are a heavily capitalized retail partner that protects your brand equity while managing the complete D2C lifecycle across premier retail channels.": "No operamos como vendedores estándar de marketplace. Somos un socio minorista de alta capitalización que protege el valor de su marca mientras gestiona el ciclo completo D2C en los canales minoristas de primer nivel.",
+  "MAP Compliance & Protection": "Cumplimiento y Protección MAP",
+  "We strictly respect Minimum Advertised Pricing. We protect your brand equity and never engage in race-to-the-bottom pricing wars.": "Respetamos estrictamente el Precio Mínimo Anunciado (MAP). Protegemos el valor de su marca y nunca nos involucramos en guerras de precios a la baja.",
+  "Clean Purchasing": "Compras Limpias",
+  "No drop-shipping. We buy actual purchase orders, take inventory risk, and hold stock in our own U.S. based facilities.": "Sin drop-shipping. Compramos órdenes de compra reales, asumimos el riesgo de inventario y mantenemos stock en nuestras propias instalaciones con sede en EE. UU.",
+  "Omnichannel Growth": "Crecimiento Omnicanal",
+  "We manage the complete D2C lifecycle across premier retail channels, helping you reach new audiences safely and effectively.": "Gestionamos el ciclo completo D2C en los principales canales minoristas, ayudándole a alcanzar nuevas audiencias de forma segura y eficaz.",
+  "Direct Purchasing Power": "Poder de Compra Directo",
+  "We don't offer 3PL services or act as an agency. We buy your products outright, take inventory risk, and handle all the logistics to sell directly to the end consumer.": "No somos 3PL ni actuamos como agencia. Compramos sus productos directamente, asumimos el riesgo de inventario y manejamos toda la logística para vender directamente al consumidor.",
+
+  // Wholesalers Section
   "Why Wholesalers Sell to ": "Por Qué los Mayoristas Venden a ",
-  "We don't operate like standard marketplace sellers. As a heavily capitalized retail partner, we protect your brand equity, purchase your products in bulk, and handle the selling logistics so you can focus on expanding your distribution network.": "No operamos como vendedores estándar. Como socio altamente capitalizado, protegemos el valor de su marca, compramos en grandes volúmenes y manejamos la logística para que usted se enfoque en expandir su red de distribución.",
+  "Why Wholesalers Sell to": "Por Qué los Mayoristas Venden a",
+  "For distributors needing rapid liquidity, we have the capital and infrastructure to scale with you and handle the selling logistics so you can focus on expanding your network.": "Para los distribuidores que necesitan liquidez rápida, tenemos el capital y la infraestructura para escalar con usted y manejar la logística de venta para que pueda enfocarse en expandir su red.",
   "Predictable Liquidity": "Liquidez Predecible",
   "We don't just buy once. We act as a consistent, high-volume endpoint for your inventory. Our goal is to provide reliable cash flow so you can continue acquiring premium brand catalogs without capital bottlenecks.": "No compramos una sola vez. Actuamos como un punto final de alto volumen constante para su inventario. El objetivo es brindar flujo de caja confiable para que pueda seguir adquiriendo marcas premium sin interrupciones de capital.",
   "Strategic Capital": "Capital Estratégico",
   "No drop-shipping. No arbitrary inventory limits. We believe in building trusted, long-term wholesale relationships and scaling our purchase orders alongside your distribution capacity.": "Sin drop-shipping ni límites arbitrarios de inventario. Creemos en relaciones mayoristas a largo plazo y en escalar nuestras órdenes de compra a la par de su capacidad.",
-  "Direct Purchasing Power": "Poder de Compra Directo",
-  "We don't offer 3PL services or act as an agency. We buy your products outright, take inventory risk, and handle all the logistics to sell directly to the end consumer.": "No somos 3PL ni actuamos como agencia. Compramos sus productos directamente, asumimos el riesgo de inventario y manejamos toda la logística para vender directamente al consumidor.",
 
   // CTA Section
   "Have A Product That Aligns With What We Do?": "¿Tiene un Producto que se Alinea con lo que Hacemos?",
-  "We source everyday products from Authorized Distributors to sell online. Connect with our purchasing team today to discuss consistent, recurring purchase orders.": "Compramos productos de uso diario de Distribuidores Autorizados para vender en línea. Conéctese con nuestro equipo para discutir órdenes de compra recurrentes y predecibles.",
+  "Partner With Our Purchasing Team": "Asóciese con Nuestro Equipo de Compras",
+  "Whether you are a brand submitting a catalog for direct partnerships, or a distributor with volume spreadsheets, let's discuss consistent, recurring purchase orders.": "Si usted es una marca que envía un catálogo para asociaciones directas, o un distribuidor con hojas de cálculo de volumen, discutamos órdenes de compra constantes y recurrentes.",
+  "We source everyday products from direct brands and Authorized Distributors to sell online. Whether you operate in Household, Personal Care, Essentials, or any other high-volume consumer goods category, we want to hear from you.": "Compramos productos de uso diario de marcas directas y Distribuidores Autorizados para vender en línea. Ya sea que opere en la categoría de Hogar, Cuidado Personal, Esenciales o cualquier otra categoría de bienes de consumo de alto volumen, queremos saber de usted.",
 
   // Footer
   "A premier retail buyer specializing in high-volume, direct-to-consumer sales across global digital marketplaces.": "Un comprador minorista líder especializado en ventas directas al consumidor de alto volumen a través de los mercados digitales.",
@@ -129,7 +146,7 @@ const esDict = {
   "3. Repeat": "3. Repetir",
   "Predictable monthly revenue": "Ingresos mensuales predecibles",
   "Our Operational Focus": "Nuestro Enfoque Operativo",
-  "We strive to build relationships with authorized distributors purchasing products consumed by the everyday American.": "Nos esforzamos por construir relaciones con distribuidores autorizados, comprando productos consumidos diariamente por el estadounidense promedio.",
+  "We strive to build relationships with direct brands and authorized distributors to purchase products consumed by the everyday American.": "Nos esforzamos por construir relaciones con marcas directas y distribuidores autorizados para comprar productos consumidos diariamente por el estadounidense promedio.",
   "From cleaning and hygienic products, to office and restaurant supplies, even home decor and niche products, we sell it all.": "Desde productos de limpieza e higiene, hasta suministros de oficina y restaurante, e incluso decoración para el hogar y nichos, lo vendemos todo.",
 
 
@@ -160,7 +177,7 @@ const esDict = {
   "Open A ": "Abrir ",
   "Wholesale Account": "Cuenta Mayorista",
   "Partner With A Reliable Retailer": "Asóciese con un Minorista Confiable",
-  "We source everyday products from Authorized Distributors to sell online. Our purchasing department is actively vetting new partners. We focus on building trusted, long-term relationships before scaling to high-volume purchase orders.": "Adquirimos productos cotidianos de Distribuidores Autorizados para vender en línea. Nuestro departamento de compras evalúa activamente nuevos socios. Nos enfocamos en construir relaciones sólidas y a largo plazo antes de escalar a órdenes de compra de gran volumen.",
+  "We source everyday products from direct brands and Authorized Distributors to sell online. Our purchasing department is actively vetting new partners. We focus on building trusted, long-term relationships before scaling to high-volume purchase orders.": "Adquirimos productos cotidianos de marcas directas y Distribuidores Autorizados para vender en línea. Nuestro departamento de compras evalúa activamente nuevos socios. Nos enfocamos en construir relaciones sólidas y a largo plazo antes de escalar a órdenes de compra de gran volumen.",
 
   // Criteria
   "Our Partnership Criteria": "Nuestros Criterios de Sociedad",
@@ -205,6 +222,7 @@ const esDict = {
   "Select a primary category...": "Seleccione una categoría principal...",
   "Beauty & Personal Care": "Belleza y Cuidado Personal",
   "Health & Household": "Salud y Hogar",
+  "Fitness & Supplements": "Fitness y Suplementos",
   "Grocery & Gourmet Food": "Alimentos y Bebidas",
   "Pet Supplies": "Artículos para Mascotas",
   "Baby Products": "Productos para Bebés",
