@@ -1,0 +1,244 @@
+<!DOCTYPE html>
+<html lang="en" class="scroll-smooth bg-brand-gray text-slate-300">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Privacy Policy | LasRevinu Corporate</title>
+    <meta name="description"
+        content="Privacy Policy and Data Handling procedures for LasRevinu Corporation. We value and protect the confidentiality of our B2B wholesale partners.">
+
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Outfit:wght@400;500;700;900&display=swap"
+        rel="stylesheet">
+
+    <!-- Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+
+    <!-- Tailwind CSS (via CDN for local dev parity with Vercel) -->
+    <script src="https://cdn.tailwindcss.com"></script>
+
+    <!-- Custom Config -->
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    fontFamily: {
+                        sans: ['Inter', 'sans-serif'],
+                        outfit: ['Outfit', 'sans-serif'],
+                    },
+                    colors: {
+                        brand: {
+                            gold: '#FBBF24',
+                            blue: '#3B82F6',
+                            gray: '#0B0F19',
+                            surface: '#111827',
+                        }
+                    },
+                    backgroundImage: {
+                        'gradient-radial': 'radial-gradient(var(--tw-gradient-stops))',
+                    }
+                }
+            }
+        }
+    </script>
+
+    <!-- Global CSS -->
+    <link rel="stylesheet" href="css/globals.css">
+</head>
+
+<body class="antialiased selection:bg-brand-gold/30 selection:text-white flex flex-col min-h-screen">
+
+    <!-- Navigation -->
+    <header
+        class="fixed w-full z-50 bg-brand-gray/80 backdrop-blur-xl border-b border-white/5 transition-all duration-300"
+        id="navbar">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="flex justify-between items-center h-24">
+                <!-- Logo -->
+                <div class="flex-shrink-0 flex items-center">
+                    <a href="index.html" class="flex items-center gap-3 group">
+                        <div
+                            class="w-10 h-10 rounded-lg bg-gradient-to-br from-brand-gold to-amber-600 flex items-center justify-center shadow-lg shadow-brand-gold/20 group-hover:shadow-brand-gold/40 transition duration-300">
+                            <i class="fa-solid fa-layer-group text-brand-gray text-xl" aria-hidden="true"></i>
+                        </div>
+                        <span
+                            class="outfit text-2xl font-bold tracking-wider text-white uppercase tracking-widest">Las<span
+                                class="text-brand-gold">Revinu</span></span>
+                    </a>
+                </div>
+
+                <!-- Desktop Menu -->
+                <nav class="hidden md:flex items-center space-x-1">
+                    <a href="index.html"
+                        class="px-5 py-2 rounded-lg text-slate-300 hover:text-white hover:bg-white/5 transition font-medium text-sm">Home</a>
+                    <a href="about.html"
+                        class="px-5 py-2 rounded-lg text-slate-300 hover:text-white hover:bg-white/5 transition font-medium text-sm">About
+                        Us</a>
+                    <a href="index.html#wholesalers"
+                        class="px-5 py-2 rounded-lg text-slate-300 hover:text-white hover:bg-white/5 transition font-medium text-sm">Wholesaler/Distributor</a>
+                    <a href="index.html#brands"
+                        class="px-5 py-2 rounded-lg text-slate-300 hover:text-white hover:bg-white/5 transition font-medium text-sm">Own
+                        a Brand</a>
+                    <div class="h-4 w-px bg-white/10 mx-2"></div>
+                    <a href="contact.html"
+                        class="ml-4 px-6 py-2.5 rounded-full border border-brand-gold/50 text-brand-gold hover:bg-brand-gold hover:text-brand-gray transition duration-300 font-semibold text-sm shadow-[0_0_15px_rgba(251,191,36,0.1)] hover:shadow-[0_0_20px_rgba(251,191,36,0.3)]">
+                        Sell Us Your Inventory
+                    </a>
+
+                    <!-- Language Toggle -->
+                    <div class="flex items-center space-x-2 text-sm ml-4 border-l border-white/10 pl-6">
+                        <button onclick="window.setLanguage('en')"
+                            class="lang-btn-en text-white font-bold transition hover:text-white focus:outline-none uppercase">EN</button>
+                        <span class="text-white/20">|</span>
+                        <button onclick="window.setLanguage('es')"
+                            class="lang-btn-es text-slate-500 font-bold transition hover:text-white focus:outline-none uppercase">ES</button>
+                    </div>
+                </nav>
+
+                <!-- Mobile Menu Button -->
+                <div class="md:hidden flex items-center">
+                    <button id="mobile-menu-btn" class="text-slate-300 hover:text-white focus:outline-none p-2"
+                        aria-expanded="false" aria-controls="mobile-menu">
+                        <i class="fas fa-bars text-2xl" aria-hidden="true"></i>
+                    </button>
+                </div>
+            </div>
+        </div>
+
+        <!-- Mobile Menu (Hidden by default) -->
+        <div id="mobile-menu"
+            class="hidden md:hidden bg-brand-surface border-b border-white/5 absolute w-full shadow-2xl">
+            <div class="px-4 pt-2 pb-6 space-y-2 flex flex-col items-center">
+                <a href="index.html"
+                    class="block px-4 py-3 text-base font-medium text-slate-300 hover:text-white hover:bg-white/5 rounded-lg w-full text-center">Home</a>
+                <a href="about.html"
+                    class="block px-4 py-3 text-base font-medium text-slate-300 hover:text-white hover:bg-white/5 rounded-lg w-full text-center">About</a>
+                <a href="index.html#wholesalers"
+                    class="block px-4 py-3 text-base font-medium text-slate-300 hover:text-white hover:bg-white/5 rounded-lg w-full text-center">Wholesaler/Distributor</a>
+                <a href="index.html#brands"
+                    class="block px-4 py-3 text-base font-medium text-slate-300 hover:text-white hover:bg-white/5 rounded-lg w-full text-center">Own
+                    a Brand</a>
+                <a href="contact.html"
+                    class="mt-4 block px-6 py-3 w-full text-center rounded-lg bg-brand-gold text-brand-gray font-bold text-base shadow-lg shadow-brand-gold/20">Sell
+                    Us Your Inventory</a>
+
+                <!-- Mobile Language Toggle -->
+                <div class="flex items-center space-x-4 mt-8 pt-6 border-t border-white/5 w-full justify-center">
+                    <button onclick="window.setLanguage('en')"
+                        class="lang-btn-en text-white font-bold transition uppercase">EN</button>
+                    <span class="text-white/20">|</span>
+                    <button onclick="window.setLanguage('es')"
+                        class="lang-btn-es text-slate-500 font-bold transition uppercase">ES</button>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <main class="flex-grow pt-32 pb-20">
+        <div class="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="glass-card p-8 md:p-12 rounded-2xl reveal-up">
+                <h1 class="outfit text-3xl md:text-5xl font-bold text-white mb-2">Privacy Policy</h1>
+                <p class="text-slate-500 text-sm mb-10">Last Updated: February 2026</p>
+
+                <div class="space-y-8 text-slate-300 leading-relaxed font-light">
+
+                    <section>
+                        <h2 class="outfit text-xl font-bold text-white mb-4">1. Information We Collect</h2>
+                        <p class="mb-4">LasRevinu Corporation ("LasRevinu", "we", "our", or "us") operates as a
+                            specialized wholesale buyer. To facilitate B2B transactions, we may collect business contact
+                            information when you interact with us, including:</p>
+                        <ul class="list-disc pl-5 space-y-2 text-slate-400">
+                            <li>Business name, address, and industry classification</li>
+                            <li>Contact names, email addresses, and phone numbers</li>
+                            <li>Product catalogs, inventory lists, and distributor authorizations</li>
+                            <li>Payment and billing information necessary to establish Net Terms or issue Purchase
+                                Orders</li>
+                        </ul>
+                    </section>
+
+                    <section>
+                        <h2 class="outfit text-xl font-bold text-white mb-4">2. How We Use Your Information</h2>
+                        <p class="mb-4">The information collected is used exclusively for legitimate business purposes.
+                            We do not sell, rent, or trade your contact information to third-party marketers. We utilize
+                            your data to:</p>
+                        <ul class="list-disc pl-5 space-y-2 text-slate-400">
+                            <li>Evaluate potential wholesale partnerships and authorize brand sourcing.</li>
+                            <li>Communicate regarding Purchase Orders (POs), Minimum Order Quantities (MOQs), and
+                                logistics routing.</li>
+                            <li>Process payments and establish long-term financial terms.</li>
+                            <li>Respond to your inquiries via our website or direct email.</li>
+                        </ul>
+                    </section>
+
+                    <section>
+                        <h2 class="outfit text-xl font-bold text-white mb-4">3. Data Security and Confidentiality</h2>
+                        <p>We implement strict operational security measures to protect your catalogs, pricing
+                            structures, and business data against unauthorized access. As a high-volume retail partner,
+                            we recognize that your supply chain relationships and pricing agreements are highly
+                            sensitive. Documents shared during the Account Vetting phase are kept strictly confidential.
+                        </p>
+                    </section>
+
+                    <section>
+                        <h2 class="outfit text-xl font-bold text-white mb-4">4. Cookies and Website Analytics</h2>
+                        <p>Our corporate landing page may use basic cookies or analytics trackers to ensure site
+                            functionality and monitor general traffic patterns. This data is aggregated and does not
+                            identify individual users. You may disable cookies in your browser settings without
+                            affecting your ability to view our site.</p>
+                    </section>
+
+                    <section>
+                        <h2 class="outfit text-xl font-bold text-white mb-4">5. Contact Information</h2>
+                        <p>If you have any questions or concerns regarding our privacy practices or data handling
+                            procedures, please contact our administrative team at the email or phone number provided to
+                            your designated procurement agent.</p>
+                    </section>
+
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <!-- Footer -->
+    <footer class="bg-brand-gray pt-16 pb-8 border-t border-white/5">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="flex flex-col md:flex-row justify-between items-center md:items-start gap-8 mb-12">
+                <div>
+                    <span
+                        class="outfit text-2xl font-bold tracking-wider text-white uppercase tracking-widest flex items-center gap-2 mb-4 justify-center md:justify-start">
+                        <i class="fa-solid fa-layer-group text-slate-500 text-xl" aria-hidden="true"></i>
+                        <span>Las<span class="text-slate-500">Revinu</span></span>
+                    </span>
+                    <p class="text-slate-500 text-sm max-w-sm text-center md:text-left">
+                        A premier retail buyer specializing in high-volume, direct-to-consumer sales across global
+                        digital marketplaces.
+                    </p>
+                </div>
+
+                <div class="flex space-x-8 text-sm font-medium">
+                    <a href="about.html" class="text-slate-400 hover:text-white transition">About</a>
+                    <a href="contact.html" class="text-slate-400 hover:text-white transition">Contact</a>
+                    <a href="privacy.html" class="text-white transition">Privacy Policy</a>
+                </div>
+            </div>
+
+            <div class="text-center pt-8 border-t border-white/5">
+                <p class="text-slate-600 text-xs uppercase tracking-widest">
+                    &copy; <span id="year"></span> LasRevinu Corporation. All Rights Reserved.
+                </p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Scripts -->
+    <script src="js/main.js"></script>
+    <script>
+        document.getElementById('year').textContent = new Date().getFullYear();
+    </script>
+</body>
+
+</html>
